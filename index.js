@@ -20,9 +20,9 @@ client.on("messageCreate", (message) => {
   }
 
   if (message.content === "hello") {
-    message.reply("Hello! ");
+    message.reply("Hello! 👋");
   }
 });
 
 // 🔥 重要：TOKEN 從 Railway 環境變數來
-client.login(process.env.MTUwMzE4MzU3MTc3NzQ5MTExNQ.Gp654v.zvcEK_sXYDypGsHnVkPIyi0dgVxWVWt-YepJNA);
+client.login(process.env.TOKEN);
